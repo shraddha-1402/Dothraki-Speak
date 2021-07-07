@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root{
+  --primary-color:  #c7822e;
+  --secondary-color: black;
+  --rem-space: 1rem;
+}
+
+body{
+  margin: 0;
+  font-family: 'Merriweather', sans-serif;
+  overflow-x: hidden;
+}
+
+img{
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.over-img{
+  position: absolute;
+  top: 20vh;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  padding: calc(var(--rem-space)*0.5) var(--rem-space);
+  color: var(--primary-color);
+  background-color: white;
+  border: 5px solid var(--primary-color);
+  border-radius: var(--rem-space);
+}
+
+h3{
+  text-align: center;
+  color: var(--primary-color);
+  padding: 0 var(--rem-space);
+}
+
+textarea{
+  display: block;
+  height: 160px;
+  width: 70vw;
+  margin: calc(var(--rem-space)*2) auto;
+  padding: var(--rem-space);
+  border-radius: var(--rem-space);
+  border: 3px solid var(--secondary-color);
+  font-size: large;
+  overflow: auto;
+}
+
+textarea:focus{
+  outline: none;
+  border: 3px solid var(--primary-color);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  border: none;
+  border-radius: var(--rem-space);
+  background-color: var(--primary-color);
+  padding: var(--rem-space) calc(var(--rem-space)*2);
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  color: white;
+}
+
+.paragraph{
+  max-width: 70vw;
+  text-align: center;
+  margin: 0;
+  margin-bottom: var(--rem-space);
+}
+
+.footer{
+  background-color: var(--primary-color);
+  padding: var(--rem-space);
+}
