@@ -85,6 +85,13 @@ button:hover{
   margin-bottom: var(--rem-space);
 }
 
+.link{
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin: 0 calc(var(--rem-space)*0.5);
+  font-size: calc(var(--rem-space)*1.5);
+}
+
 .footer{
   background-color: var(--primary-color);
   padding: var(--rem-space);
