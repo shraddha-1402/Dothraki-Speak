@@ -4,6 +4,13 @@
 
 *Dothraki is a fictional language created by George R. R. Martin in his books  A Song of Ice and Fire*
 
+## How the project works
+
+* Enter the text you want to translate in the input area
+* Click the translate button
+* Clicking the button will trigger an event and translated text will be fetched using the api
+* As soon as the data is fetched its displayed in the output box below the button
+
 **Head to [Dothraki Speak](https://dothraki-speak-translation-app.netlify.app/) to try converting your sentences into Dothraki Language!**
 
 ## Tech-Stack
