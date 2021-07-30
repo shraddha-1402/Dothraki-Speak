@@ -12,6 +12,11 @@ body{
   overflow-x: hidden;
 }
 
+.text, button{
+  font-family: inherit;
+  letter-spacing: 1px;
+}
+
 img{
   width: 100vw;
   height: 50vh;
@@ -41,10 +46,10 @@ h3{
   padding: 0 var(--rem-space);
 }
 
-textarea{
+.text{
   display: block;
   height: 160px;
-  width: 70vw;
+  width: 65vw;
   margin: calc(var(--rem-space)*2) auto;
   padding: var(--rem-space);
   border-radius: var(--rem-space);
@@ -53,7 +58,7 @@ textarea{
   overflow: auto;
 }
 
-textarea:focus{
+.text:focus{
   outline: none;
   border: 3px solid var(--primary-color);
 }
@@ -79,7 +84,7 @@ button:hover{
 }
 
 .paragraph{
-  max-width: 70vw;
+  max-width: 90vmin;
   text-align: center;
   margin: 0;
   margin-bottom: var(--rem-space);

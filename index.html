@@ -17,11 +17,13 @@
     </div>
   </header>
   <h3>Did you know you can translate your sentences into Dothraki? Well, you can try it here!</h3>
-  <textarea id="input-text" placeholder="Please enter your text here.."></textarea>
-  <div class="container">
-    <button id="translate-button">Translate Text</button>
-  </div>
-  <textarea id="output-text" placeholder="Your translated text will appear here.." maxlength="0"></textarea>
+  <form id="form">
+    <textarea id="input-text" class="text" placeholder="Please enter your text here.." required></textarea>
+    <div class="container">
+      <button type="submit" id="translate-button">Translate Text</button>
+    </div>
+  </form>
+  <div id="output-text" class="text">Your translated text will appear here</div>
   <footer class="footer container">
     <h2>About</h2>
     <p class="paragraph"> Have you watched the famous series Game of Thrones? The Dothraki language which the Khaleesi
